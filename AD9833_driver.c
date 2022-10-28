@@ -1,9 +1,3 @@
-/*
- * AD9833_driver.c
- *
- *  Created on: 23 maj 2022
- *      Author: Smuff
- */
 #include "AD9833_driver.h"
 
 void AD9833_SetCSpin(AD9833 *dev, GPIO_TypeDef* port, uint16_t pin){
